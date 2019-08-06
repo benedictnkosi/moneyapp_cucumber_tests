@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MoneyApp Suite"  thread-count="3" parallel="tests">
+    <test name="001_login">
+        <classes>
+            <class name="MoneyAppTests.LoginTest">
+                <methods >
+                    <exclude name="runLoginTestCases" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="002_config">
+        <classes>
+            <class name="MoneyAppTests.ConfigTest">
+                <methods >
+                    <include name="runCustomTransactionNameTestCases"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="003_budget">
+        <classes>
+            <class name="MoneyAppTests.BudgetTest">
+                <methods >
+                    <exclude name="runBudgetTestCases" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+</suite>
