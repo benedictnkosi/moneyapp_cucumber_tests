@@ -36,7 +36,7 @@ public class BudgetPage {
         this.driver = driver;
     }
 
-    private void selectCategory(String strCategoryName) {
+    public void selectCategory(String strCategoryName) {
         try {
             Select drpCategory = new Select(driver.findElement(selectCategories));
             drpCategory.selectByVisibleText(strCategoryName);
@@ -45,16 +45,16 @@ public class BudgetPage {
         }
     }
 
-    private void selectTransaction(String strTransactionName) {
+    public void selectTransaction(String strTransactionName) {
         try {
-            Select drpCategory = new Select(driver.findElement(selectTransactions));
-            drpCategory.selectByVisibleText(strTransactionName);
+            Select drpTransaction = new Select(driver.findElement(selectTransactions));
+            drpTransaction.selectByVisibleText(strTransactionName);
         } catch (Exception ex) {
             Assert.fail(ex.getStackTrace()[0].getMethodName(), ex);
         }
     }
 
-    private void showBudgetForm() {
+    public void showBudgetForm() {
         try {
             driver.findElement(plusButton).click();
         } catch (Exception ex) {
@@ -62,7 +62,7 @@ public class BudgetPage {
         }
     }
 
-    private void submitBudgetForm() {
+    public void submitBudgetForm() {
         try {
             driver.findElement(budgetForm).submit();
         } catch (Exception ex) {
@@ -70,6 +70,13 @@ public class BudgetPage {
         }
     }
 
+
+
+    public void checkOutputMessage(String message) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(messageLabel), message));
+
+    }
 
     public void addNewBudgetItem(String category, String transactionName) {
         try {

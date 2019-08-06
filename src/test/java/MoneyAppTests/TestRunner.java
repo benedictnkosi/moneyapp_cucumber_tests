@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags = "@config_feature",
+        tags = "@budget_feature",
         features = "Feature"
         ,glue={"stepDefinition"}
 )

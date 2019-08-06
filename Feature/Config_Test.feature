@@ -2,12 +2,11 @@
 Feature: Config Test
 
 Background:
- Given User is on Home Page
+ Given User is on Config Page
 
 
 Scenario Outline: Successfully Create Custom Transaction Name
- When User navigates to the config page
- And User selects category "<category>"
+ When User selects category "<category>"
  And User enters "<transaction_name>"
  And User clicks the create button
  Then A message is displayed : "<message>"
@@ -22,8 +21,7 @@ Examples:
 
 @delete_transaction
 Scenario Outline: Successfully Delete Custom Transaction Name
- When User navigates to the config page
- And User selects category "<category>"
+ When User selects category "<category>"
  And User clicks the delete button on "<transaction_name>"
  Then A message is displayed : "<message>"
  And The "<transaction_name>" is removed from the list

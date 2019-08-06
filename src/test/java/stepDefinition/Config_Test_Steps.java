@@ -24,19 +24,17 @@ public class Config_Test_Steps extends BaseClass{
     Logger log = Logger.getLogger("devpinoyLogger");
 
 
-    @Given("^User is on Home Page$")
-    public void user_is_on_Home_Page() throws Throwable {
+    @Given("^User is on Config Page$")
+    public void user_is_on_Config_Page() {
         super.setup();
         this.driver = super.driver;
         loginPage = new LoginPage(driver);
+
+        log.debug("loging in user");
         loginPage.LoginUser(Application.application_username,Application.application_password);
-    }
+        log.debug("user logged in");
 
 
-    @When("^User navigates to the config page$")
-    public void user_enters_UserName_and_Password() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        this.driver = super.driver;
         homePage = new Homepage(driver);
 
         log.debug("navigating to the config page");
@@ -46,7 +44,7 @@ public class Config_Test_Steps extends BaseClass{
 
 
     @When("^User selects category \"(.*)\"$")
-    public void selectCategory(String category) throws Throwable {
+    public void selectCategory(String category) {
         // Write code here that turns the phrase above into concrete actions
         config = new ConfigPage(driver);
 
@@ -58,7 +56,7 @@ public class Config_Test_Steps extends BaseClass{
 
 
     @When("^User enters \"(.*)\"$")
-    public void setTransactionName(String transactionName) throws Throwable {
+    public void setTransactionName(String transactionName) {
         // Write code here that turns the phrase above into concrete actions
         config = new ConfigPage(driver);
 
@@ -68,7 +66,7 @@ public class Config_Test_Steps extends BaseClass{
     }
 
     @When("^User clicks the create button$")
-    public void submitNewCustomTransactionForm() throws Throwable {
+    public void submitNewCustomTransactionForm() {
         // Write code here that turns the phrase above into concrete actions
         config = new ConfigPage(driver);
 
@@ -80,7 +78,7 @@ public class Config_Test_Steps extends BaseClass{
 
 
     @When("^User clicks the delete button on \"([^\"]*)\"$")
-    public void clickDeleteButton(String transactionName) throws Throwable {
+    public void clickDeleteButton(String transactionName) throws InterruptedException {
         // Write code here that turns the phrase above into concrete actions
         config = new ConfigPage(driver);
 
@@ -90,8 +88,8 @@ public class Config_Test_Steps extends BaseClass{
     }
 
 
-    @When("^A message is displayed : \"(.*)\"$")
-    public void checkOutputMessage(String message) throws Throwable {
+    @Then("^A message is displayed : \"(.*)\"$")
+    public void checkOutputMessage(String message) throws Throwable{
         // Write code here that turns the phrase above into concrete actions
         config = new ConfigPage(driver);
 
@@ -101,23 +99,19 @@ public class Config_Test_Steps extends BaseClass{
     }
 
     @Then("^transaction \"([^\"]*)\" is added to the list$")
-    public void transaction_is_added_to_the_list(String transactionName) throws Throwable {
+    public void transaction_is_added_to_the_list(String transactionName) {
         config = new ConfigPage(driver);
         config.checkTransactionIsAdded(transactionName);
     }
 
     @Then("^The \"(.*)\" is removed from the list$")
-    public void transaction_is_removed_from_the_list(String transactionName) throws Throwable {
+    public void transaction_is_removed_from_the_list(String transactionName) {
         config = new ConfigPage(driver);
         config.checkTransactionIsRemoved(transactionName);
     }
 
 
-    @After
-    public void teardown() {
 
-        driver.quit();
-    }
 
 
 }
