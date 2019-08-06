@@ -13,4 +13,8 @@ Scenario Outline: Successfully Add Budget Item
 Examples:
           | category  | transaction_name  | message |
           | Personal Expenses | Children and Dependants | successfully captured new budget item |
+          | Business Expenses | travel | successfully captured new budget item |
+          | Income | Interest | successfully captured new budget item |
+          | Investments | Bitcoin | successfully captured new budget item |
+          | Loan Pay Down | Vehicle Loan Repayments | successfully captured new budget item |
 
