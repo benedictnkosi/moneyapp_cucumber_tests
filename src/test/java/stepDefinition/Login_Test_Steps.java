@@ -1,42 +1,48 @@
 package stepDefinition;
 
 import MoneyAppTests.BaseClass;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import MoneyAppTests.WebDriverManager;
 import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import pages.Homepage;
 import pages.LoginPage;
-import properties.Application;
-
-import java.util.concurrent.TimeUnit;
-import org.apache.log4j.Logger;
+import pages.PageObjectManager;
+import utils.ConfigFileReader;
 
 public class Login_Test_Steps extends BaseClass {
 
     WebDriver driver;
+    ConfigFileReader configReader;
+    WebDriverManager webDriverManager;
+    PageObjectManager pageObjectManager;
 
+    Homepage homepage;
     LoginPage loginPage;
 
     Logger log = Logger.getLogger("devpinoyLogger");
 
-
-
     @Given("^User is on Login Page$")
     public void user_is_on_Login_Page() throws Throwable {
-        super.setup();
-        this.driver = super.driver;
+        webDriverManager = new WebDriverManager();
+        configReader = new ConfigFileReader();
+
+        driver = webDriverManager.getDriver();
+        pageObjectManager = new PageObjectManager(driver);
+
+        homepage = pageObjectManager.getHomePage();
+        homepage.OpenLoginPage();
     }
 
-    @When("^User enters \"(.*)\" and \"(.*)\"$")
+    @When("^User logs in with \"(.*)\" and \"(.*)\"$")
     public void user_enters_UserName_and_Password(String username, String password) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
 
-        loginPage = new LoginPage(driver);
+        loginPage = pageObjectManager.getLoginPage();
 
         log.debug("type username");
         loginPage.setUserName(username);
@@ -69,7 +75,7 @@ public class Login_Test_Steps extends BaseClass {
     @When("^User LogOut from the Application$")
     public void user_LogOut_from_the_Application() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        Homepage homepage = new Homepage(driver);
+        homepage = pageObjectManager.getHomePage();
         log.debug("Logout application");
         homepage.logoutUser();
         log.debug("Logout application");
@@ -79,6 +85,12 @@ public class Login_Test_Steps extends BaseClass {
     public void user_is_redirected_to_the_Login_page() throws Throwable {
         log.debug("Logout application");
         log.debug("Logout application");
+    }
+
+
+    @After
+    public void teardown() {
+        webDriverManager.closeDriver();
     }
 
 
