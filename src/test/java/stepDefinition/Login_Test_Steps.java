@@ -1,24 +1,24 @@
 package stepDefinition;
 
-import MoneyAppTests.BaseClass;
-import MoneyAppTests.WebDriverManager;
+import cucumber.TestContext;
 import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import managers.PageObjectManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import pages.Homepage;
 import pages.LoginPage;
-import pages.PageObjectManager;
 import utils.ConfigFileReader;
 
 public class Login_Test_Steps extends BaseClass {
 
+    TestContext testContext;
+
     WebDriver driver;
     ConfigFileReader configReader;
-    WebDriverManager webDriverManager;
     PageObjectManager pageObjectManager;
 
     Homepage homepage;
@@ -26,24 +26,24 @@ public class Login_Test_Steps extends BaseClass {
 
     Logger log = Logger.getLogger("devpinoyLogger");
 
-    @Given("^User is on Login Page$")
-    public void user_is_on_Login_Page() throws Throwable {
-        webDriverManager = new WebDriverManager();
-        configReader = new ConfigFileReader();
+    public Login_Test_Steps(TestContext context) {
+        testContext = context;
+        driver = testContext.getWebDriverManager().getDriver();
+        configReader = testContext.getConfigFileReader();
 
-        driver = webDriverManager.getDriver();
-        pageObjectManager = new PageObjectManager(driver);
+        pageObjectManager = testContext.getPageObjectManager();
 
         homepage = pageObjectManager.getHomePage();
+        loginPage = pageObjectManager.getLoginPage();
+    }
+
+    @Given("^User is on Login Page$")
+    public void user_is_on_Login_Page() throws Throwable {
         homepage.OpenLoginPage();
     }
 
     @When("^User logs in with \"(.*)\" and \"(.*)\"$")
     public void user_enters_UserName_and_Password(String username, String password) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-
-        loginPage = pageObjectManager.getLoginPage();
-
         log.debug("type username");
         loginPage.setUserName(username);
         log.debug("type username");
@@ -74,8 +74,6 @@ public class Login_Test_Steps extends BaseClass {
 
     @When("^User LogOut from the Application$")
     public void user_LogOut_from_the_Application() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        homepage = pageObjectManager.getHomePage();
         log.debug("Logout application");
         homepage.logoutUser();
         log.debug("Logout application");
@@ -84,13 +82,12 @@ public class Login_Test_Steps extends BaseClass {
     @Then("^User is redirected to the Login page$")
     public void user_is_redirected_to_the_Login_page() throws Throwable {
         log.debug("Logout application");
-        log.debug("Logout application");
     }
 
 
     @After
     public void teardown() {
-        webDriverManager.closeDriver();
+        testContext.getWebDriverManager().closeDriver();
     }
 
 

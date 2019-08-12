@@ -1,4 +1,4 @@
-package MoneyAppTests;
+package managers;
 
 import enums.DriverType;
 import enums.EnvironmentType;
@@ -69,7 +69,7 @@ public class WebDriverManager {
     }
 
     public void closeDriver() {
-        driver.close();
+
         driver.quit();
     }
 
