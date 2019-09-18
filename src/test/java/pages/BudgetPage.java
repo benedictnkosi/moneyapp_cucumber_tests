@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import properties.Application;
+import utils.ConfigFileReader;
 
 
 public class BudgetPage {
@@ -31,9 +31,12 @@ public class BudgetPage {
     By filter_income = By.linkText("Income");
     By filter_businessExpenses = By.linkText("Business Expense");
 
+    ConfigFileReader configReader;
+
 
     public BudgetPage(WebDriver driver) {
         this.driver = driver;
+        configReader = new ConfigFileReader();
     }
 
     public void selectCategory(String strCategoryName) {
@@ -86,7 +89,7 @@ public class BudgetPage {
             this.submitBudgetForm();
 
             WebDriverWait wait = new WebDriverWait(driver, 10);
-            wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(messageLabel), Application.msg_success_add_new_budget_item));
+            wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(messageLabel), configReader.getPropertyByName("msg_success_add_new_budget_item")));
         } catch (Exception ex) {
             Assert.fail(ex.getStackTrace()[0].getMethodName(), ex);
         }

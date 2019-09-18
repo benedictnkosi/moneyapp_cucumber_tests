@@ -1,6 +1,5 @@
 package pages;
 
-import cucumber.api.java.After;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import properties.Application;
+import utils.ConfigFileReader;
 
 
 public class ConfigPage {
@@ -18,9 +17,11 @@ public class ConfigPage {
     By transactionNameField = By.id("textTrasnctionName");
     By captureForm = By.id("transaction_form");
     By messageLabel = By.id("lbl_message");
+    ConfigFileReader configReader;
 
     public ConfigPage(WebDriver driver){
         this.driver = driver;
+        configReader = new ConfigFileReader();
     }
 
     public void selectCategory(String strCategoryName) {
@@ -71,7 +72,7 @@ public class ConfigPage {
             this.submitNewCustomTransactionForm();
 
             WebDriverWait wait = new WebDriverWait(driver, 10);
-            wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(messageLabel), Application.msg_success_create_custom_transaction));
+        wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(messageLabel), configReader.getPropertyByName("msg_success_create_custom_transaction")));
 
 
     }
@@ -92,7 +93,7 @@ public class ConfigPage {
             element.click();
 
             WebDriverWait wait = new WebDriverWait(driver, 10);
-            wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(messageLabel), Application.msg_success_delete_custom_transaction));
+        wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(messageLabel), configReader.getPropertyByName("msg_success_delete_custom_transaction")));
     }
 
 

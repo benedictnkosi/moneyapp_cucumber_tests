@@ -1,12 +1,12 @@
 package MoneyAppTests;
 
-import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags = "@budget_feature",
+        tags = "@login_feature",
         features = "Feature"
         ,glue={"stepDefinition"}
 )

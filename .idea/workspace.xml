@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="211edf1b-d4c7-4348-b501-81bba3b5dcbd" name="Default Changelist" comment="" />
+    <list default="true" id="211edf1b-d4c7-4348-b501-81bba3b5dcbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/TestContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MoneyAppTests/BaseClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MoneyAppTests/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/managers/WebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Budget_Test_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Budget_Test_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Config_Test_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Config_Test_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MoneyAppTests/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MoneyAppTests/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ConfigPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/ConfigPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Homepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Homepage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageObjectManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Budget_Test_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Budget_Test_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Config_Test_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Config_Test_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Login_Test_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Login_Test_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ConfigFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/ConfigFileReader.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,40 +35,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ConfigPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MoneyAppTests/TestRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MoneyAppTests/BaseClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Budget_Test_Steps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+            <state relative-caret-position="378">
+              <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,31 +47,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Feature/LogIn_Test.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="225">
+              <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2833#2834#0" expanded="true" />
+                <element signature="e#2879#2880#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/Homepage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utils/ConfigFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="425">
+              <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -90,8 +72,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Config_Test_Steps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1268">
-              <caret line="33" column="95" selection-start-line="33" selection-start-column="95" selection-end-line="33" selection-end-column="95" />
+            <state relative-caret-position="216">
+              <caret line="89" column="45" lean-forward="true" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/TestContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/managers/WebDriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,6 +144,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -119,10 +160,14 @@
       <find>user_is_on_Home_Page</find>
       <find>user_selects_transaction</find>
       <find>throws Throwable</find>
+      <find>&quot;</find>
+      <find>;</find>
+      <find>config.</find>
     </findStrings>
     <replaceStrings>
       <replace>log.debug</replace>
       <replace>log.debug(</replace>
+      <replace>configPage.</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -164,18 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/excelExportAndFileIO/ReadMoneyAppExcelFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DTO/TestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DTO/CustomTransactionNameObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excel/ExcelUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/MoneyAppTesting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/ExcelUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/driver/MoneyAppTesting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/driver/loginDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/driver/CustomTransactionDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/budget.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/Signup.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/ExcelReader.java" />
@@ -198,23 +231,35 @@
         <option value="$PROJECT_DIR$/src/main/java/driver/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/driver/ConfigTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/ApachePOIExcel.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/properties/log4j.properties" />
-        <option value="$PROJECT_DIR$/Feature/LogIn_Test.feature" />
         <option value="$PROJECT_DIR$/src/test/java/MoneyAppTests/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MoneyAppTests/BaseClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/ConfigPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/properties/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/MoneyAppTests/BudgetTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MoneyAppTests/ConfigTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MoneyAppTests/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/Homepage.java" />
         <option value="$PROJECT_DIR$/Feature/Config_Test.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/BudgetPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepDefinition/Budget_Test_Steps.java" />
         <option value="$PROJECT_DIR$/Feature/Budget_Test.feature" />
+        <option value="$PROJECT_DIR$/properties/Application.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MoneyAppTests/BaseClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/BudgetPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ConfigPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MoneyAppTests/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/enums/DriverType.java" />
+        <option value="$PROJECT_DIR$/src/test/java/enums/EnvironmentType.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/pageObjectManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageObjectManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/ConfigFileReader.java" />
+        <option value="$PROJECT_DIR$/properties/Configuration.properties" />
+        <option value="$PROJECT_DIR$/Feature/LogIn_Test.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/Homepage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/MoneyAppTests/WebDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cucumber/TestContext.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepDefinition/Budget_Test_Steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinition/Config_Test_Steps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/managers/WebDriverManager.java" />
       </list>
     </option>
   </component>
@@ -264,22 +309,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="moneyapp_cucumber_tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moneyapp_cucumber_tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moneyapp_cucumber_tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moneyapp_cucumber_tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stepDefinition" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -290,7 +319,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Feature" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -305,10 +334,11 @@
       <recent name="pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests\src\test\java" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\moneyapp_cucumber_tests\Feature" />
       <recent name="C:\Users\Lenovo\IdeaProjects\MoneyAppTesting_Cucumber\Feature" />
       <recent name="C:\Users\Lenovo\IdeaProjects\MoneyAppTesting_Cucumber\src\test\java" />
-      <recent name="C:\Users\Lenovo\IdeaProjects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,11 +354,11 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner (1)">
-    <configuration name="TestRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="moneyapp_cucumber_tests" />
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MoneyAppTesting_Cucumber" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MoneyAppTests.*" />
+          <option name="PATTERN" value="managers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,10 +370,10 @@
       </method>
     </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MoneyAppTesting_Cucumber" />
+      <module name="moneyapp_cucumber_tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MoneyAppTests.*" />
+          <option name="PATTERN" value="managers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,7 +388,7 @@
       <module name="MoneyAppTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MoneyAppTests.*" />
+          <option name="PATTERN" value="managers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -424,7 +454,7 @@
       <module name="MoneyAppTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MoneyAppTests.*" />
+          <option name="PATTERN" value="managers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -514,37 +544,45 @@
       <option name="presentableId" value="Default" />
       <updated>1559145096323</updated>
     </task>
+    <task id="LOCAL-00001" summary="code refactoring&#10;--started using configuration file with java properties class&#10;--Added a page object manager class&#10;--Added Web Driver manager class">
+      <created>1565548780782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565548780783</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner_(1) - 2019.08.06 at 20h 26m 24s.xml">
+    <history-entry file="TestRunner_(1) - 2019.08.11 at 20h 12m 26s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.08.06 at 20h 26m 52s.xml">
+    <history-entry file="TestRunner_(1) - 2019.08.11 at 20h 15m 23s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.08.06 at 20h 28m 30s.xml">
+    <history-entry file="TestRunner_(1) - 2019.08.11 at 20h 15m 59s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.08.06 at 20h 30m 07s.xml">
+    <history-entry file="TestRunner_(1) - 2019.08.11 at 20h 20m 31s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.08.06 at 20h 34m 54s.xml">
+    <history-entry file="TestRunner_(1) - 2019.08.11 at 20h 22m 04s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.08.06 at 20h 36m 47s.xml">
+    <history-entry file="TestRunner_(1) - 2019.08.12 at 19h 23m 24s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.08.06 at 20h 40m 09s.xml">
+    <history-entry file="TestRunner_(1) - 2019.08.12 at 19h 33m 14s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.08.06 at 20h 43m 12s.xml">
+    <history-entry file="TestRunner_(1) - 2019.08.12 at 19h 35m 28s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.08.06 at 20h 44m 25s.xml">
+    <history-entry file="TestRunner_(1) - 2019.08.12 at 19h 37m 10s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.08.06 at 20h 46m 36s.xml">
+    <history-entry file="TestRunner_(1) - 2019.08.12 at 19h 45m 39s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -561,7 +599,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30030257" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30030257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -569,16 +607,43 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.22383253" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67473525" weight="0.56199676" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8540091" weight="0.4009662" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" visible="true" weight="0.22383253" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6709531" weight="0.41384864" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.85325265" weight="0.4009662" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.42512077" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.32753405" side_tool="true" visible="true" weight="0.42351046" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.4969743" visible="true" weight="0.431562" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2526475" side_tool="true" weight="0.884058" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.7473525" weight="0.25442833" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4969743" weight="0.431562" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.025718609" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30030257" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" weight="0.22383253" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6709531" visible="true" weight="0.41384864" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.85325265" weight="0.4009662" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.42512077" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2526475" side_tool="true" weight="0.884058" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.7473525" weight="0.25442833" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4969743" weight="0.431562" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.025718609" />
@@ -586,23 +651,41 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-    </layout>
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added budget test for adding budget item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added budget test for adding budget item" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pages/BudgetPage.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="code refactoring&#10;--started using configuration file with java properties class&#10;--Added a page object manager class&#10;--Added Web Driver manager class" />
+    <option name="LAST_COMMIT_MESSAGE" value="code refactoring&#10;--started using configuration file with java properties class&#10;--Added a page object manager class&#10;--Added Web Driver manager class" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -624,53 +707,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Parameters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="537" selection-start-line="537" selection-end-line="537" />
-          <folding>
-            <element signature="e#22786#22944#0" expanded="true" />
-            <element signature="e#22943#22944#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/ITestResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DTO/CustomTransactionNameDTO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/DTO/LoginDTO.java" />
-    <entry file="file://$PROJECT_DIR$/test-output/testng-failed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/emailable-report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DataProvider.java" />
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/driver/ConfigTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/DTO/BudgetDTO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/Homepage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/ConfigPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/driver/BudgetTest.java" />
@@ -704,26 +740,12 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/DTO/CustomTransactionNameDTO.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/SignupPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/ApachePOIExcel.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/DataProvider.java" />
     <entry file="file://$PROJECT_DIR$/extent.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -745,29 +767,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Feature/LogIn_Test.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MoneyAppTests/LoginTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -782,62 +782,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MoneyAppTests/BaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MoneyAppTests/ConfigTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/properties/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MoneyAppTests/BudgetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Homepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MoneyAppTests/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Budget_Test_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,28 +804,232 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/pages/Homepage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <folding>
+            <element signature="e#0#1905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/utils/ConfigFileReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="31" lean-forward="true" selection-end-line="72" />
+          <folding>
+            <element signature="e#0#2393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/MoneyAppTests/BaseClass.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#1194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MoneyAppTests/BudgetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/BudgetPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="174">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="34" />
           <folding>
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/SignupPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MoneyAppTests/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/ConfigPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/enums/EnvironmentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/enums/DriverType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MoneyAppTests/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feature/LogIn_Test.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Homepage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+          <folding>
+            <element signature="method#OpenConfigPage#0;class#Homepage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/properties/Configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ConfigFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Login_Test_Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2833#2834#0" expanded="true" />
+            <element signature="e#2879#2880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Budget_Test_Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Config_Test_Steps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1268">
-          <caret line="33" column="95" selection-start-line="33" selection-start-column="95" selection-end-line="33" selection-end-column="95" />
+        <state relative-caret-position="216">
+          <caret line="89" column="45" lean-forward="true" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/TestContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/managers/WebDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/managers/PageObjectManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

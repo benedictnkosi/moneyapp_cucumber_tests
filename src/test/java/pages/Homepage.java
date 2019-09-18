@@ -5,10 +5,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.ConfigFileReader;
 
 public class Homepage {
     WebDriver driver;
-
+    ConfigFileReader configReader;
 
     By homeMenu = By.cssSelector("css=a[href='index.html']");
 
@@ -56,6 +57,13 @@ public class Homepage {
 
     }
 
+
+    //homePage.navigateTo_HomePage();
+    public void OpenLoginPage() {
+        configReader = new ConfigFileReader();
+        driver.get(configReader.getApplicationUrl());
+    }
+
     public void OpenBudgetPage() {
 
             driver.findElement(userMenuButton).click();
@@ -63,6 +71,11 @@ public class Homepage {
             WebDriverWait wait = new WebDriverWait(driver, 10);
             wait.until(ExpectedConditions.elementToBeClickable(budgetMenu)).click();
 
+    }
+
+
+    public void teardown() {
+        driver.quit();
     }
 
 
